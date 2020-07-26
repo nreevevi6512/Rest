@@ -3,7 +3,7 @@ const app = express();
 
 //Routes
 app.get("/", (req, res) => {
-    res.send("hello modafaka")
+    res.send("hello modafaka");
 })
 //Server
 app.listen(2222);
