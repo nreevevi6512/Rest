@@ -8,5 +8,5 @@ app.get("/", (req, res) => {
 //Server
 let port = 22422;
 app.listen(port, function () {
-    console.log("Server started listening at localhost" + port)
+    console.log("Server started listening at localhost:" + port)
 })
