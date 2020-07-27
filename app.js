@@ -1,5 +1,6 @@
 const express = require("express");
 const app = express();
+const mongoose = require("moongoose");
 
 //Routes
 app.get("/", (req, res) => {
@@ -9,6 +10,8 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
     res.send("Stupid fucker");
 })
+//connect to DB
+
 //Server
 let port = 22422;
 app.listen(port, function () {
