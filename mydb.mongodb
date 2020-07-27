@@ -1,0 +1,3 @@
+use("Mydb")
+
+db.costumer.find({"name": "Reeve"})
